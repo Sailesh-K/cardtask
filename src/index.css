@@ -1,0 +1,61 @@
+body{
+  background-color: rgb(27, 143, 215);
+}
+
+
+
+.card{
+  background-color: white;
+  font-family:"Roboto",sans-serif;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0%,0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  height: 470px;
+  width: 270px;
+  display:inline-block;
+}
+
+.card h3{
+  color: gray;
+}
+
+.card ul{
+  text-align:justify;
+  line-height:2rem;
+  font-weight:500;
+}
+
+.card ul .enable {
+  list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23000000"><path d="M9 19c-.26 0-.51-.1-.71-.29l-6-6A.996.996 0 1 1 3.7 11.3l5.29 5.29L20.28 5.3a.996.996 0 1 1 1.41 1.41l-12 12c-.2.2-.45.29-.71.29Z"></path></svg>');
+}
+
+.card ul .disable{
+  list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23000000"><path d="m13.41 12 6.29-6.29c.94-.94-.48-2.35-1.41-1.41L12 10.59 5.71 4.3c-.93-.93-2.35.48-1.41 1.41L10.59 12 4.3 18.29c-.94.94.48 2.35 1.41 1.41L12 13.41c6.12 6.12 6.74 7.26 7.71 6.29a.996.996 0 0 0 0-1.41L13.42 12Z"></path></svg>');
+  color: rgb(176, 176, 176);
+}
+
+.card ul li::marker{
+  font-size: 1.5rem;
+}
+
+
+.card .button {
+  background-color: rgb(27, 143, 215);
+  color: #fff;
+  border:none;
+  font-size: large;
+  border-radius:20px;
+  padding:15px;
+  min-height:30px; 
+  min-width: 250px;
+}
+
+.card button:hover{
+  background-color: rgb(0, 72, 117);
+  transition: 0.3s ease;
+  font-size:larger;
+}
+
